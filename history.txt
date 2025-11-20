@@ -1,0 +1,164 @@
+   1  -al
+    2  -al
+    3  arr
+    4  arrow up
+    5  arrow up/down
+    6  arrow down
+    7  ls
+    8  cd ..
+    9  cd documents
+   10  mkdir morales
+   11  ls
+   12  mkdir morales
+   13  ls
+   14  mkdir morales
+   15  ls
+   16  cd morales
+   17  touch test.txt
+   18  ls
+   19  rm test.txt
+   20  readme.md
+   21  start readme.md
+   22  git init
+   23  ls -al
+   24  cd .git
+   25  ls -il
+   26  cd ..
+   27  ls
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit
+   32  git commit-m
+   33  git config --global user.name
+   34  git config --global user.name "Morales200418"
+   35  git config --global user.gmail
+   36  git config --global user.email
+   37  git config --global user.name "Morales200418"
+   38  git config --global user.name "Morales200418"
+   39  git config --global user.name
+   40  git config --global user.email
+   41  git commit-m
+   42  git commit"
+   43  git commit
+   44  git commit
+   45  ls
+   46  cd foldername
+   47  cd document
+   48  cd documents
+   49  cd ..
+   50  ls
+   51  touch documents
+   52  cd documents
+   53  mkdir Morales
+   54  mkdir Morales
+   55  mkdir morales
+   56  cd Morales
+   57  mkdir morales
+   58  touch test.text
+   59  ls
+   60  rm test.txt
+   61  cd .git
+   62  touch read.me
+   63  touc read.me
+   64  touch read.me
+   65  start read.me
+   66  git init
+   67  ls - al
+   68  ls -al
+   69  cd ..
+   70  ls
+   71  readme.md
+   72  cd Morals
+   73  cd Morales
+   74  ls
+   75  readme.md
+   76  git status
+   77  git add .
+   78  git status
+   79  git config --global user.name "Morales200418"
+   80  git config --global user.email "jhonlloydmorales511@gmail.com
+   81  git config --global user.email "jhonlloydmorales511@gmail.com"
+   82  git config --global user.email "jhonlloydmorales511@gmail.com"
+   83  git config --global user.email
+   84  git config --global user.name
+   85  start
+   86  git commit-m "firstcommit"
+   87
+   88  git brach-M main
+   89  ls
+   90  ls -al
+   91  git commit -m "first commit"
+   92  git commit -M main
+   93  git branch -M main
+   94  git push -u origin main
+   95  git push -u origin main
+   96  git add
+   97  git add .
+   98  git status
+   99  git commit -m "Second commit"
+  100  git push
+  101  git branch -M main
+  102  git remote add origin https://github.com/Morales200418
+  103  git remote add origin https://github.com/Morales200418/Morales.git
+  104  git remote add origin https://github.com/Morales200418/morales.git
+  105  git push -u origin main
+  106  git branch -M main
+  107  git remote add origin https://github.com/Morales200418/morales.git
+  108  git push -u origin main
+  109  start readme.md
+  110  start readme.md
+  111  ls
+  112  cd documents
+  113  cd ..
+  114  cd documents
+  115  mkdir morales
+  116  cd morales
+  117  mkdir morales
+  118  touch test.txt
+  119  rm touch test.txt
+  120  ls
+  121*
+  122  touch test.tx
+  123  touch readme.md
+  124  start readme.md
+  125  git init
+  126  ls -al
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m "first commit"
+  131  git status
+  132  git branch
+  133  git branch -M main
+  134  git remote add origin https://github.com/Morales200418/morales.git
+  135  git push -u origin main
+  136  git add .
+  137  git status
+  138  git remote add origin https://github.com/Morales200418/morales1.git
+  139  git remote add origin https://github.com/Morales200418/morales.git
+  140  git push
+  141  git branch -M main
+  142  git status
+  143  git push -u origin main
+  144  cd .git
+  145  cd config
+  146  start config
+  147  git remote add origin https://github.com/Morales200418/morales.git
+  148  cs ..
+  149  cd ..
+  150  git remote add origin https://github.com/Morales200418/morales.git
+  151  git push -u origin main
+  152  git clone https://github.com/Morales200418/morales.git
+  153  cd ..
+  154  cd morales
+  155  ls
+  156  cd ..
+  157  git clone https://github.com/Morales200418/morales.git
+  158  git clone https://github.com/Morales200418/morales.git
+  159  cd morales
+  160  ls
+  161  touch history.txt
+  162  start history.txt
+  163  history
+
