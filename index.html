@@ -3,11 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6; /* light gray background */
+        }
+        .calculator-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            max-width: 360px;
+            width: 100%;
+        }
+        .screen {
+            background-color: #e5e7eb; /* light gray screen */
+            color: #111827;
+            font-size: 2rem;
+            text-align: right;
+            padding: 0.5rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            overflow-x: auto;
+        }
+        .btn {
+            padding: 0.75rem;
+            font-size: 1.25rem;
+            font-weight: bold;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn:active { transform: translateY(1px); }
+        .btn-gray { background-color: #9ca3af; color: #111827; }
+        .btn-gray:hover { background-color: #6b7280; }
+        .btn-red { background-color: #ef4444; color: #ffffff; }
+        .btn-red:hover { background-color: #dc2626; }
+        .btn-yellow { background-color: #fbbf24; color: #111827; }
+        .btn-yellow:hover { background-color: #f59e0b; }
+        .btn-green { background-color: #22c55e; color: #ffffff; }
+        .btn-green:hover { background-color: #16a34a; }
+    </style>
 </head>
-<body>
-    <h1>Welcome to my pages</h1>
-    <p> I am morales babearo</p>
-    <p>Click me to joined</p>
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
+
+    <header class="w-full max-w-md mb-4">
+        <a href="Home.html" class="flex items-center text-blue-600 hover:text-blue-800 font-bold text-lg">
+            <i data-feather="arrow-left" class="mr-2"></i> BACK
+        </a>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center w-full">
+        <div class="calculator-container">
+            <div class="screen" id="display">0</div>
+
+            <div class="grid grid-cols-4 gap-2">
+                <button onclick="clearDisplay()" class="btn btn-red">AC</button>
+                <button onclick="appendToDisplay('/')" class="btn btn-yellow">/</button>
+                <button onclick="appendToDisplay('*')" class="btn btn-yellow">×</button>
+                <button onclick="backspace()" class="btn btn-gray">⌫</button>
+
+                <button onclick="appendToDisplay('7')" class="btn btn-gray">7</button>
+                <button onclick="appendToDisplay('8')" class="btn btn-gray">8</button>
+                <button onclick="appendToDisplay('9')" class="btn btn-gray">9</button>
+                <button onclick="appendToDisplay('-')" class="btn btn-yellow">-</button>
+
+                <button onclick="appendToDisplay('4')" class="btn btn-gray">4</button>
+                <button onclick="appendToDisplay('5')" class="btn btn-gray">5</button>
+                <button onclick="appendToDisplay('6')" class="btn btn-gray">6</button>
+                <button onclick="appendToDisplay('+')" class="btn btn-yellow">+</button>
+
+                <button onclick="appendToDisplay('1')" class="btn btn-gray">1</button>
+                <button onclick="appendToDisplay('2')" class="btn btn-gray">2</button>
+                <button onclick="appendToDisplay('3')" class="btn btn-gray">3</button>
+                <button onclick="calculate()" class="btn btn-green row-span-2">=</button>
+
+                <button onclick="appendToDisplay('0')" class="btn btn-gray col-span-2">0</button>
+                <button onclick="appendToDisplay('.')" class="btn btn-gray">.</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="Calculator.js"></script>
+    <script>feather.replace();</script>
 </body>
 </html>
